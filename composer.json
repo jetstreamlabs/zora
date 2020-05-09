@@ -1,0 +1,26 @@
+{
+    "name": "serenity/zora",
+    "description": "Add your Laravel language translations to your asset pipeline for use in Javascript packages like Vue or React.",
+    "require": {
+        "laravel/framework": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vince Kronlein",
+            "email": "vkronlein@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Serenity\\Zora\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Serenity\\Zora\\ZoraServiceProvider"
+            ]
+        }
+    }
+}
