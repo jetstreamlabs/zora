@@ -7,7 +7,12 @@ use Serenity\Zora\CommandTranslationGenerator;
 
 class ZoraServiceProvider extends Serviceprovider
 {
-	public function boot()
+	/**
+     * Boot up our service provider.
+     *
+     * @return void
+     */
+    public function boot()
 	{
 		if ($this->app->runningInConsole()) {
             $this->commands([

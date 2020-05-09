@@ -6,6 +6,12 @@ use Illuminate\Support\Facades\File;
 
 class TranslationPayload
 {
+    /**
+     * Compile all of the local translations.
+     *
+     * @param  array  $locales
+     * @return array
+     */
     public static function compile($locales = [])
     {
         $payload = new static;
@@ -22,6 +28,12 @@ class TranslationPayload
         return $translations;
     }
 
+    /**
+     * Compile the PHP file translations.
+     *
+     * @param  string $locale
+     * @return array
+     */
     private function phpTranslations($locale)
     {
         $path = resource_path("lang/$locale");
@@ -33,6 +45,12 @@ class TranslationPayload
         });
     }
 
+    /**
+     * Compile the JSON file translations.
+     *
+     * @param  string $locale
+     * @return array
+     */
     private function jsonTranslations($locale)
     {
         $path = resource_path("lang/$locale.json");

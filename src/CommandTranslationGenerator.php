@@ -7,12 +7,32 @@ use Illuminate\Filesystem\Filesystem;
 
 class CommandTranslationGenerator extends Command
 {
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
     protected $signature = 'zora:generate {path=./resources/js/plugins/translations.js}';
 
+    /**
+     * The console command description.
+     *
+     * @var string|null
+     */
     protected $description = 'Generate translation js file for including in build process';
 
+    /**
+     * Filesystem instance for moving files.
+     *
+     * @var \Illuminate\Filesystem\Filesystem
+     */
     protected $files;
 
+    /**
+     * Create a new console command instance.
+     *
+     * @return void
+     */
     public function __construct(Filesystem $files)
     {
         parent::__construct();
@@ -20,6 +40,11 @@ class CommandTranslationGenerator extends Command
         $this->files = $files;
     }
 
+    /**
+     * Process the command.
+     *
+     * @return void
+     */
     public function handle()
     {
         $path = $this->argument('path');
@@ -33,6 +58,11 @@ class CommandTranslationGenerator extends Command
         $this->info('Translations file generated.');
     }
 
+    /**
+     * Generate the translations for the file.
+     *
+     * @return file
+     */
     public function generate()
     {
         $locales = [];
@@ -65,6 +95,12 @@ class CommandTranslationGenerator extends Command
 EOT;
     }
 
+    /**
+     * Make the directory if it doesn't exist.
+     *
+     * @param  string $path
+     * @return string
+     */
     protected function makeDirectory($path)
     {
         if (! $this->files->isDirectory(dirname($path))) {
