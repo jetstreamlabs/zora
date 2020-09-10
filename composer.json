@@ -2,7 +2,7 @@
     "name": "serenity/zora",
     "description": "Add your Laravel language translations to your asset pipeline for use in Javascript packages like Vue or React.",
     "require": {
-        "laravel/framework": "^7.0"
+        "laravel/framework": ">=5.8"
     },
     "license": "MIT",
     "authors": [
