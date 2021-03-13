@@ -12,7 +12,7 @@ class CommandTranslationGenerator extends Command
      *
      * @var string
      */
-    protected $signature = 'zora:generate {path=./resources/js/plugins/translations.js}';
+    protected $signature = 'zora:generate {path=./resources/js/zora.js}';
 
     /**
      * The console command description.
@@ -103,7 +103,7 @@ EOT;
      */
     protected function makeDirectory($path)
     {
-        if (! $this->files->isDirectory(dirname($path))) {
+        if (!$this->files->isDirectory(dirname($path))) {
             $this->files->makeDirectory(dirname($path), 0777, true, true);
         }
 
