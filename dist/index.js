@@ -17,7 +17,7 @@ export const trans = (key, replace, Zora) => {
             : key
     }
 
-    __.forEach(replace, (value, key) => {
+    _.forEach(replace, (value, key) => {
         translation = translation.replace(':' + key, value)
     })
 
