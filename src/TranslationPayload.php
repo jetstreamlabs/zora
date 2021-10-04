@@ -16,7 +16,7 @@ class TranslationPayload
     {
         $payload = new static;
 
-        $translations = collect();
+        $translations = [];
 
         foreach ($locales as $locale) { // suported locales
             $translations[$locale] = [
@@ -25,7 +25,7 @@ class TranslationPayload
             ];
         }
 
-        return $translations;
+        return collect($translations);
     }
 
     /**
