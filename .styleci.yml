@@ -1,0 +1,16 @@
+php:
+  preset: laravel
+  version: 8
+  tab-width: 2
+  use-tabs: true
+  finder:
+    exclude:
+      - 'vendor'
+    name: '*.php'
+js:
+  tab-width: 2
+  use-tabs: true
+  semicolons: false
+  finder:
+    exclude:
+      - 'node_modules'

@@ -2,7 +2,7 @@ import _ from 'lodash'
 
 export const trans = (key, replace, Zora) => {
 	let translation,
-		locale = window.locale,
+		locale = process.env.LOCALE,
 		translationNotFound = true
 
 	try {
