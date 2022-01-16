@@ -1,5 +1,12 @@
 # Jetstream Pro Changelog
 
+## [1.0.1](https://github.com/jetstreamlabs/zora/compare/v1.0.0...v1.0.1) (2022-01-16)
+
+
+### Bug Fixes
+
+* reset cache to array not null ([0f70d9e](https://github.com/jetstreamlabs/zora/commit/0f70d9e14a9468cf3dc64ec081d86b3c7cd6471d))
+
 # 1.0.0 (2022-01-16)
 
 
