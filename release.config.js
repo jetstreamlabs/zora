@@ -89,7 +89,7 @@ module.exports = {
 			'@semantic-release/changelog',
 			{
 				changelogFile: 'CHANGELOG.md',
-				changelogTitle: '# Jetstream Pro Changelog',
+				changelogTitle: '# Zora Changelog',
 			},
 		],
 		// creating a new version commit
