@@ -87,7 +87,7 @@ class Zora implements ZoraInterface
 	 */
 	public static function clearTranslations(): void
 	{
-		static::$cache = null;
+		static::$cache = [];
 	}
 
 	/**
