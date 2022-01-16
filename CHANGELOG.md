@@ -1,3 +1,12 @@
+# Zora Changelog
+
+## [1.0.2](https://github.com/jetstreamlabs/zora/compare/v1.0.1...v1.0.2) (2022-01-16)
+
+
+### Bug Fixes
+
+* wrong name on release changelog ([3062673](https://github.com/jetstreamlabs/zora/commit/30626732de5609a596804aca54ee5a3ef800b7f0))
+
 # Jetstream Pro Changelog
 
 ## [1.0.1](https://github.com/jetstreamlabs/zora/compare/v1.0.0...v1.0.1) (2022-01-16)
