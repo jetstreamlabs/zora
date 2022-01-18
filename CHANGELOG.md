@@ -1,5 +1,17 @@
 # Zora Changelog
 
+# [2.0.0](https://github.com/jetstreamlabs/zora/compare/v1.0.2...v2.0.0) (2022-01-18)
+
+
+### Breaking
+
+* more efficient language parsing js and ssr ([96a3ad3](https://github.com/jetstreamlabs/zora/commit/96a3ad30c3550793a29bba22762a0dd4352ca3da))
+
+
+### Maintenance
+
+* **style:** apply fixes from StyleCI ([c1064d1](https://github.com/jetstreamlabs/zora/commit/c1064d1d335ed866e9f36f92efce5a3520e44f39))
+
 ## [1.0.2](https://github.com/jetstreamlabs/zora/compare/v1.0.1...v1.0.2) (2022-01-16)
 
 
