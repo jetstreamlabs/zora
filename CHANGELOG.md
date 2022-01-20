@@ -1,5 +1,12 @@
 # Zora Changelog
 
+# [3.1.0](https://github.com/jetstreamlabs/zora/compare/v3.0.0...v3.1.0) (2022-01-20)
+
+
+### Features
+
+* add dependabot yml file ([cd33955](https://github.com/jetstreamlabs/zora/commit/cd339555b9eafb9de6aeed04552640636b90e38d))
+
 # [3.0.0](https://github.com/jetstreamlabs/zora/compare/v2.0.0...v3.0.0) (2022-01-20)
 
 
