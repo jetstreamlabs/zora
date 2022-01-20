@@ -1,5 +1,12 @@
 # Zora Changelog
 
+# [3.0.0](https://github.com/jetstreamlabs/zora/compare/v2.0.0...v3.0.0) (2022-01-20)
+
+
+### Breaking
+
+* namespace change from Serenity to Jetlabs ([7359696](https://github.com/jetstreamlabs/zora/commit/7359696b748f5ccb27ac9e7e7481794edafec9b5))
+
 # [2.0.0](https://github.com/jetstreamlabs/zora/compare/v1.0.2...v2.0.0) (2022-01-18)
 
 
