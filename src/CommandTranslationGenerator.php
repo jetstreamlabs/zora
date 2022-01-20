@@ -1,6 +1,6 @@
 <?php
 
-namespace Serenity\Zora;
+namespace Jetlabs\Zora;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

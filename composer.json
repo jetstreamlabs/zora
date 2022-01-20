@@ -1,5 +1,5 @@
 {
-	"name": "serenity/zora",
+	"name": "jetstreamlabs/zora",
 	"description": "Add your Laravel language translations to your asset pipeline for use in Javascript packages like Vue or React.",
 	"require": {
 		"laravel/framework": "^8.0"
@@ -13,13 +13,13 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Serenity\\Zora\\": "src/"
+			"Jetlabs\\Zora\\": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Serenity\\Zora\\ZoraServiceProvider"
+				"Jetlabs\\Zora\\ZoraServiceProvider"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 <?php
 
-namespace Serenity\Zora;
+namespace Jetlabs\Zora;
 
 use Illuminate\Support\Facades\File;
 

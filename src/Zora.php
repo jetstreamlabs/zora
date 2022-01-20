@@ -1,6 +1,6 @@
 <?php
 
-namespace Serenity\Zora;
+namespace Jetlabs\Zora;
 
 use Illuminate\Support\Facades\File;
 
@@ -46,7 +46,7 @@ class Zora implements ZoraInterface
 	/**
 	 * Run the class with caching in production.
 	 *
-	 * @return \Serenity\Zora\Zora
+	 * @return \Jetlabs\Zora\Zora
 	 */
 	protected function runProduction(): Zora
 	{
