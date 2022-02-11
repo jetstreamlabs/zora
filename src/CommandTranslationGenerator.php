@@ -67,7 +67,7 @@ class CommandTranslationGenerator extends Command
 	{
 		$locales = [];
 
-		$iterator = new \DirectoryIterator(resource_path('lang'));
+		$iterator = new \DirectoryIterator(base_path('lang'));
 
 		foreach ($iterator as $fileinfo) {
 			if (! $fileinfo->isDot()) {

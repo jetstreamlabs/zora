@@ -69,7 +69,7 @@ class Zora implements ZoraInterface
 	{
 		$locales = [];
 
-		$iterator = new \DirectoryIterator(resource_path('lang'));
+		$iterator = new \DirectoryIterator(lang_path());
 
 		foreach ($iterator as $fileinfo) {
 			if (! $fileinfo->isDot()) {
@@ -117,7 +117,7 @@ class Zora implements ZoraInterface
 	 */
 	protected function translatePhp(string $locale): array
 	{
-		$path = resource_path("lang/$locale");
+		$path = lang_path($locale);
 
 		return collect(File::allFiles($path))->flatMap(function ($file) use ($locale) {
 			$key = ($translation = $file->getBasename('.php'));
@@ -134,7 +134,7 @@ class Zora implements ZoraInterface
 	 */
 	protected function translateJson(string $locale): array
 	{
-		$path = resource_path("lang/$locale.json");
+		$path = lang_path("$locale.json");
 
 		if (is_string($path) && is_readable($path)) {
 			return json_decode(file_get_contents($path), true);
