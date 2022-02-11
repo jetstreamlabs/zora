@@ -1,5 +1,20 @@
 # Zora Changelog
 
+# [3.2.0](https://github.com/jetstreamlabs/zora/compare/v3.1.0...v3.2.0) (2022-02-11)
+
+
+### Features
+
+* update readme for Laravel 9 ([90c51de](https://github.com/jetstreamlabs/zora/commit/90c51de81528ab27027e107f67b92b04b9f6cce1))
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 16.0.2 to 16.1.0 ([722e4fc](https://github.com/jetstreamlabs/zora/commit/722e4fcc4698ba10323ee7c0dad7ea3649e21dbb))
+* **deps-dev:** bump semantic-release from 18.0.1 to 19.0.2 ([11b2d70](https://github.com/jetstreamlabs/zora/commit/11b2d70f266bd1f7c2f13e73dda0796b304fea7b))
+* **deps:** change requirement to laravel 9 ([b369e95](https://github.com/jetstreamlabs/zora/commit/b369e95ef4dccf62ba12c14155bfc5699608e9b9))
+* update package lock from prs ([da7ea63](https://github.com/jetstreamlabs/zora/commit/da7ea6381220a1222760b97a045dd7dce6ff53e5))
+
 # [3.1.0](https://github.com/jetstreamlabs/zora/compare/v3.0.0...v3.1.0) (2022-01-20)
 
 
