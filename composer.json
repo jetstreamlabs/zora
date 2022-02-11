@@ -2,7 +2,8 @@
 	"name": "jetstreamlabs/zora",
 	"description": "Add your Laravel language translations to your asset pipeline for use in Javascript packages like Vue or React.",
 	"require": {
-		"laravel/framework": "^8.0"
+		"php": "^8.0.2",
+		"laravel/framework": "^8.0|^9.0"
 	},
 	"license": "MIT",
 	"authors": [
