@@ -1,5 +1,12 @@
 # Zora Changelog
 
+## [3.2.2](https://github.com/jetstreamlabs/zora/compare/v3.2.1...v3.2.2) (2022-02-11)
+
+
+### Bug Fixes
+
+* update for L9 lang dir placement ([b6cc00f](https://github.com/jetstreamlabs/zora/commit/b6cc00f4f7d70f4fb79d4e8041acffc151d85f1e))
+
 ## [3.2.1](https://github.com/jetstreamlabs/zora/compare/v3.2.0...v3.2.1) (2022-02-11)
 
 
