@@ -2,14 +2,14 @@ php:
   preset: laravel
   version: 8
   tab-width: 2
-  use-tabs: true
+  use-tabs: false
   finder:
     exclude:
       - 'vendor'
     name: '*.php'
 js:
   tab-width: 2
-  use-tabs: true
+  use-tabs: false
   semicolons: false
   finder:
     exclude:
