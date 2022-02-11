@@ -69,12 +69,11 @@ class Zora implements ZoraInterface
   {
     $locales = [];
 
-    $iterator = new \DirectoryIterator(lang_path());
+    $directories = File::directories(lang_path());
 
-    foreach ($iterator as $fileinfo) {
-      if (! $fileinfo->isDot()) {
-        $locales[] = $fileinfo->getFilename();
-      }
+    foreach ($directories as $dir) {
+      $path = str_replace(lang_path().'/', '', $dir);
+      $locales[] = $path;
     }
 
     return $locales;

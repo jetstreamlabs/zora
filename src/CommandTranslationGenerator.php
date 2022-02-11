@@ -4,6 +4,7 @@ namespace Jetlabs\Zora;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Facades\File;
 
 class CommandTranslationGenerator extends Command
 {
@@ -67,12 +68,13 @@ class CommandTranslationGenerator extends Command
   {
     $locales = [];
 
-    $iterator = new \DirectoryIterator(base_path('lang'));
+    $locales = [];
 
-    foreach ($iterator as $fileinfo) {
-      if (! $fileinfo->isDot()) {
-        $locales[] = $fileinfo->getFilename();
-      }
+    $directories = File::directories(lang_path());
+
+    foreach ($directories as $dir) {
+      $path = str_replace(lang_path().'/', '', $dir);
+      $locales[] = $path;
     }
 
     $json = TranslationPayload::compile($locales)->toJson();
