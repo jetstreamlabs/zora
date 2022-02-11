@@ -1,5 +1,17 @@
 # Zora Changelog
 
+## [3.2.1](https://github.com/jetstreamlabs/zora/compare/v3.2.0...v3.2.1) (2022-02-11)
+
+
+### Bug Fixes
+
+* use lang_path vs resource_path ([d9c8eac](https://github.com/jetstreamlabs/zora/commit/d9c8eac5a7ca9d878f8745aede424ee6b7ace187))
+
+
+### Maintenance
+
+* **style:** apply styleci fixes ([6b24e8e](https://github.com/jetstreamlabs/zora/commit/6b24e8e89e0b650e69967a560d990cefa8f4a2ca))
+
 # [3.2.0](https://github.com/jetstreamlabs/zora/compare/v3.1.0...v3.2.0) (2022-02-11)
 
 
