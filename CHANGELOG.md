@@ -1,5 +1,17 @@
 # Zora Changelog
 
+## [3.2.3](https://github.com/jetstreamlabs/zora/compare/v3.2.2...v3.2.3) (2022-02-13)
+
+
+### Bug Fixes
+
+* import trans as named import ([7560bd6](https://github.com/jetstreamlabs/zora/commit/7560bd63033afe2d997157e07186314129fd7aa9))
+
+
+### Maintenance
+
+* **style:** change prettier tabs ([96780b6](https://github.com/jetstreamlabs/zora/commit/96780b6623f80222dbae88ec1c7918f2d07b5a6b))
+
 ## [3.2.2](https://github.com/jetstreamlabs/zora/compare/v3.2.1...v3.2.2) (2022-02-11)
 
 
