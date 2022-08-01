@@ -2,112 +2,95 @@
 
 ## [3.2.3](https://github.com/jetstreamlabs/zora/compare/v3.2.2...v3.2.3) (2022-02-13)
 
-
 ### Bug Fixes
 
-* import trans as named import ([7560bd6](https://github.com/jetstreamlabs/zora/commit/7560bd63033afe2d997157e07186314129fd7aa9))
-
+- import trans as named import ([7560bd6](https://github.com/jetstreamlabs/zora/commit/7560bd63033afe2d997157e07186314129fd7aa9))
 
 ### Maintenance
 
-* **style:** change prettier tabs ([96780b6](https://github.com/jetstreamlabs/zora/commit/96780b6623f80222dbae88ec1c7918f2d07b5a6b))
+- **style:** change prettier tabs ([96780b6](https://github.com/jetstreamlabs/zora/commit/96780b6623f80222dbae88ec1c7918f2d07b5a6b))
 
 ## [3.2.2](https://github.com/jetstreamlabs/zora/compare/v3.2.1...v3.2.2) (2022-02-11)
 
-
 ### Bug Fixes
 
-* update for L9 lang dir placement ([b6cc00f](https://github.com/jetstreamlabs/zora/commit/b6cc00f4f7d70f4fb79d4e8041acffc151d85f1e))
+- update for L9 lang dir placement ([b6cc00f](https://github.com/jetstreamlabs/zora/commit/b6cc00f4f7d70f4fb79d4e8041acffc151d85f1e))
 
 ## [3.2.1](https://github.com/jetstreamlabs/zora/compare/v3.2.0...v3.2.1) (2022-02-11)
 
-
 ### Bug Fixes
 
-* use lang_path vs resource_path ([d9c8eac](https://github.com/jetstreamlabs/zora/commit/d9c8eac5a7ca9d878f8745aede424ee6b7ace187))
-
+- use lang_path vs resource_path ([d9c8eac](https://github.com/jetstreamlabs/zora/commit/d9c8eac5a7ca9d878f8745aede424ee6b7ace187))
 
 ### Maintenance
 
-* **style:** apply styleci fixes ([6b24e8e](https://github.com/jetstreamlabs/zora/commit/6b24e8e89e0b650e69967a560d990cefa8f4a2ca))
+- **style:** apply styleci fixes ([6b24e8e](https://github.com/jetstreamlabs/zora/commit/6b24e8e89e0b650e69967a560d990cefa8f4a2ca))
 
 # [3.2.0](https://github.com/jetstreamlabs/zora/compare/v3.1.0...v3.2.0) (2022-02-11)
 
-
 ### Features
 
-* update readme for Laravel 9 ([90c51de](https://github.com/jetstreamlabs/zora/commit/90c51de81528ab27027e107f67b92b04b9f6cce1))
-
+- update readme for Laravel 9 ([90c51de](https://github.com/jetstreamlabs/zora/commit/90c51de81528ab27027e107f67b92b04b9f6cce1))
 
 ### Maintenance
 
-* **deps-dev:** bump @commitlint/cli from 16.0.2 to 16.1.0 ([722e4fc](https://github.com/jetstreamlabs/zora/commit/722e4fcc4698ba10323ee7c0dad7ea3649e21dbb))
-* **deps-dev:** bump semantic-release from 18.0.1 to 19.0.2 ([11b2d70](https://github.com/jetstreamlabs/zora/commit/11b2d70f266bd1f7c2f13e73dda0796b304fea7b))
-* **deps:** change requirement to laravel 9 ([b369e95](https://github.com/jetstreamlabs/zora/commit/b369e95ef4dccf62ba12c14155bfc5699608e9b9))
-* update package lock from prs ([da7ea63](https://github.com/jetstreamlabs/zora/commit/da7ea6381220a1222760b97a045dd7dce6ff53e5))
+- **deps-dev:** bump @commitlint/cli from 16.0.2 to 16.1.0 ([722e4fc](https://github.com/jetstreamlabs/zora/commit/722e4fcc4698ba10323ee7c0dad7ea3649e21dbb))
+- **deps-dev:** bump semantic-release from 18.0.1 to 19.0.2 ([11b2d70](https://github.com/jetstreamlabs/zora/commit/11b2d70f266bd1f7c2f13e73dda0796b304fea7b))
+- **deps:** change requirement to laravel 9 ([b369e95](https://github.com/jetstreamlabs/zora/commit/b369e95ef4dccf62ba12c14155bfc5699608e9b9))
+- update package lock from prs ([da7ea63](https://github.com/jetstreamlabs/zora/commit/da7ea6381220a1222760b97a045dd7dce6ff53e5))
 
 # [3.1.0](https://github.com/jetstreamlabs/zora/compare/v3.0.0...v3.1.0) (2022-01-20)
 
-
 ### Features
 
-* add dependabot yml file ([cd33955](https://github.com/jetstreamlabs/zora/commit/cd339555b9eafb9de6aeed04552640636b90e38d))
+- add dependabot yml file ([cd33955](https://github.com/jetstreamlabs/zora/commit/cd339555b9eafb9de6aeed04552640636b90e38d))
 
 # [3.0.0](https://github.com/jetstreamlabs/zora/compare/v2.0.0...v3.0.0) (2022-01-20)
 
-
 ### Breaking
 
-* namespace change from Serenity to Jetlabs ([7359696](https://github.com/jetstreamlabs/zora/commit/7359696b748f5ccb27ac9e7e7481794edafec9b5))
+- namespace change from Serenity to Jetlabs ([7359696](https://github.com/jetstreamlabs/zora/commit/7359696b748f5ccb27ac9e7e7481794edafec9b5))
 
 # [2.0.0](https://github.com/jetstreamlabs/zora/compare/v1.0.2...v2.0.0) (2022-01-18)
 
-
 ### Breaking
 
-* more efficient language parsing js and ssr ([96a3ad3](https://github.com/jetstreamlabs/zora/commit/96a3ad30c3550793a29bba22762a0dd4352ca3da))
-
+- more efficient language parsing js and ssr ([96a3ad3](https://github.com/jetstreamlabs/zora/commit/96a3ad30c3550793a29bba22762a0dd4352ca3da))
 
 ### Maintenance
 
-* **style:** apply fixes from StyleCI ([c1064d1](https://github.com/jetstreamlabs/zora/commit/c1064d1d335ed866e9f36f92efce5a3520e44f39))
+- **style:** apply fixes from StyleCI ([c1064d1](https://github.com/jetstreamlabs/zora/commit/c1064d1d335ed866e9f36f92efce5a3520e44f39))
 
 ## [1.0.2](https://github.com/jetstreamlabs/zora/compare/v1.0.1...v1.0.2) (2022-01-16)
 
-
 ### Bug Fixes
 
-* wrong name on release changelog ([3062673](https://github.com/jetstreamlabs/zora/commit/30626732de5609a596804aca54ee5a3ef800b7f0))
-
-# Jetstream Pro Changelog
+- wrong name on release changelog ([3062673](https://github.com/jetstreamlabs/zora/commit/30626732de5609a596804aca54ee5a3ef800b7f0))
 
 ## [1.0.1](https://github.com/jetstreamlabs/zora/compare/v1.0.0...v1.0.1) (2022-01-16)
 
-
 ### Bug Fixes
 
-* reset cache to array not null ([0f70d9e](https://github.com/jetstreamlabs/zora/commit/0f70d9e14a9468cf3dc64ec081d86b3c7cd6471d))
+- reset cache to array not null ([0f70d9e](https://github.com/jetstreamlabs/zora/commit/0f70d9e14a9468cf3dc64ec081d86b3c7cd6471d))
 
 # 1.0.0 (2022-01-16)
 
-
 ### Breaking
 
-* major changes to accomodate inertia ssr ([9e0e9df](https://github.com/jetstreamlabs/zora/commit/9e0e9df7e034bd6f9ecd29e69fa94db388b499bd))
+- major changes to accomodate inertia ssr ([9e0e9df](https://github.com/jetstreamlabs/zora/commit/9e0e9df7e034bd6f9ecd29e69fa94db388b499bd))
 
-
-* Merge tag 'v2.3' into develop ([34895c8](https://github.com/jetstreamlabs/zora/commit/34895c8161b3ad010e74d9974bc2c7e67a8fdba8))
-* Merge branch 'release/2.3' ([8573717](https://github.com/jetstreamlabs/zora/commit/857371793c37a170c636a6152e7eb6223db733fe))
-* error in collection call ([e620f91](https://github.com/jetstreamlabs/zora/commit/e620f914b10e4a4665425855e5effe5d0368e831))
-* Merge branch 'develop' ([e503b9a](https://github.com/jetstreamlabs/zora/commit/e503b9abdc1104ce6398d921398b766dac681f84))
-* duh … was missing lodash ([b160f33](https://github.com/jetstreamlabs/zora/commit/b160f3342e551e027cc92b1bcf008cf3f662fcb3))
-* Merge branch 'develop' ([52962ee](https://github.com/jetstreamlabs/zora/commit/52962ee02a4f721aeeaf564cbe6c7e00b8505d89))
-* added underscore ([a3773f8](https://github.com/jetstreamlabs/zora/commit/a3773f8a47a46f5673ed998a1df34038cf016053))
-* Merge branch 'develop' ([c649c73](https://github.com/jetstreamlabs/zora/commit/c649c731e8a41a840ee948606bc9779273dbd45f))
-* a little restructuring ([54515bf](https://github.com/jetstreamlabs/zora/commit/54515bfe7672e75725f0919908609e78170b97b1))
-* recommit ([8d39049](https://github.com/jetstreamlabs/zora/commit/8d39049a9c6db6d210f1e1e5f109809ae600f72e))
-* Merge tag 'vv1.5' into develop ([8aed9b2](https://github.com/jetstreamlabs/zora/commit/8aed9b29c3b8bfb446f2491e586f38e2daac53f4))
-* Merge branch 'release/v1.5' ([080d0d3](https://github.com/jetstreamlabs/zora/commit/080d0d334d2275c0b10be754c30e82a5d343abe1))
-* lower laravel version ([11ad809](https://github.com/jetstreamlabs/zora/commit/11ad80996feae7c47107e60c6d3bda2f9f3bed64))
-* docblocks ([74a7f9e](https://github.com/jetstreamlabs/zora/commit/74a7f9eb95920e12e4246df137eb05ce65a9cf90))
-* initial commit ([d5d252a](https://github.com/jetstreamlabs/zora/commit/d5d252a4b99037e5a281e5312032a15bf52985f6))
+- Merge tag 'v2.3' into develop ([34895c8](https://github.com/jetstreamlabs/zora/commit/34895c8161b3ad010e74d9974bc2c7e67a8fdba8))
+- Merge branch 'release/2.3' ([8573717](https://github.com/jetstreamlabs/zora/commit/857371793c37a170c636a6152e7eb6223db733fe))
+- error in collection call ([e620f91](https://github.com/jetstreamlabs/zora/commit/e620f914b10e4a4665425855e5effe5d0368e831))
+- Merge branch 'develop' ([e503b9a](https://github.com/jetstreamlabs/zora/commit/e503b9abdc1104ce6398d921398b766dac681f84))
+- duh … was missing lodash ([b160f33](https://github.com/jetstreamlabs/zora/commit/b160f3342e551e027cc92b1bcf008cf3f662fcb3))
+- Merge branch 'develop' ([52962ee](https://github.com/jetstreamlabs/zora/commit/52962ee02a4f721aeeaf564cbe6c7e00b8505d89))
+- added underscore ([a3773f8](https://github.com/jetstreamlabs/zora/commit/a3773f8a47a46f5673ed998a1df34038cf016053))
+- Merge branch 'develop' ([c649c73](https://github.com/jetstreamlabs/zora/commit/c649c731e8a41a840ee948606bc9779273dbd45f))
+- a little restructuring ([54515bf](https://github.com/jetstreamlabs/zora/commit/54515bfe7672e75725f0919908609e78170b97b1))
+- recommit ([8d39049](https://github.com/jetstreamlabs/zora/commit/8d39049a9c6db6d210f1e1e5f109809ae600f72e))
+- Merge tag 'vv1.5' into develop ([8aed9b2](https://github.com/jetstreamlabs/zora/commit/8aed9b29c3b8bfb446f2491e586f38e2daac53f4))
+- Merge branch 'release/v1.5' ([080d0d3](https://github.com/jetstreamlabs/zora/commit/080d0d334d2275c0b10be754c30e82a5d343abe1))
+- lower laravel version ([11ad809](https://github.com/jetstreamlabs/zora/commit/11ad80996feae7c47107e60c6d3bda2f9f3bed64))
+- docblocks ([74a7f9e](https://github.com/jetstreamlabs/zora/commit/74a7f9eb95920e12e4246df137eb05ce65a9cf90))
+- initial commit ([d5d252a](https://github.com/jetstreamlabs/zora/commit/d5d252a4b99037e5a281e5312032a15bf52985f6))
