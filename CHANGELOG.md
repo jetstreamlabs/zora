@@ -1,5 +1,38 @@
 # Zora Changelog
 
+## [3.2.4](https://github.com/jetstreamlabs/zora/compare/v3.2.3...v3.2.4) (2023-01-04)
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 16.1.0 to 17.0.3 ([886ec2d](https://github.com/jetstreamlabs/zora/commit/886ec2da45470de2063e7dac50734aaaa20e2891))
+* **deps-dev:** bump @commitlint/cli from 17.0.3 to 17.1.2 ([76a3228](https://github.com/jetstreamlabs/zora/commit/76a322863d50b31428c1504ed30c0ab763550ba6))
+* **deps-dev:** bump @commitlint/cli from 17.1.2 to 17.3.0 ([5a4059e](https://github.com/jetstreamlabs/zora/commit/5a4059e42095bba850c425a1cacc1534ab0a691f))
+* **deps-dev:** bump @commitlint/config-convent ([551be7f](https://github.com/jetstreamlabs/zora/commit/551be7ff18ab31beba8eabc7ed007cb00c93be18))
+* **deps-dev:** bump @commitlint/config-conventional ([d1f45b9](https://github.com/jetstreamlabs/zora/commit/d1f45b94c0f41edbf1bac753bd78d416185c61ac))
+* **deps-dev:** bump @commitlint/config-conventional ([92d4e1d](https://github.com/jetstreamlabs/zora/commit/92d4e1d5d668f7d5fd1120572c440e767f92570f))
+* **deps-dev:** bump @commitlint/config-conventional ([fad2331](https://github.com/jetstreamlabs/zora/commit/fad2331ce412b58f9ef5cdfb1f7b6752162d5416))
+* **deps-dev:** bump @semantic-release/changelog from 6.0.1 to 6.0.2 ([ec871c4](https://github.com/jetstreamlabs/zora/commit/ec871c4d7615da04655c1f0c639a7bbb9309da9a))
+* **deps-dev:** bump husky from 7.0.4 to 8.0.1 ([f6e1e23](https://github.com/jetstreamlabs/zora/commit/f6e1e236b28174db98b679270407cd9bc3e900a6))
+* **deps-dev:** bump husky from 7.0.4 to 8.0.1 ([9ed76a2](https://github.com/jetstreamlabs/zora/commit/9ed76a211a957c76db0d65c15fb1e7b278136efa))
+* **deps-dev:** bump husky from 8.0.1 to 8.0.3 ([aa7b9db](https://github.com/jetstreamlabs/zora/commit/aa7b9db574257eaa148a5fc77bb26f1867a6dc34))
+* **deps-dev:** bump semantic-release from 19.0.2 to 19.0.3 ([d4480e2](https://github.com/jetstreamlabs/zora/commit/d4480e28b0fe6daa9e711e21b4faa4568900b1c9))
+* **deps-dev:** bump semantic-release from 19.0.3 to 19.0.5 ([6698c98](https://github.com/jetstreamlabs/zora/commit/6698c986569d70f42883f1bec7ad6935b1894679))
+* **deps:** bump actions/checkout from 2 to 3 ([c5edc02](https://github.com/jetstreamlabs/zora/commit/c5edc02f288711239d7a66a39cb9cfe86b654d5a))
+* **deps:** bump actions/setup-node from 2 to 3.4.1 ([d45d1ac](https://github.com/jetstreamlabs/zora/commit/d45d1ac642232492a9d471bb4296d719e825fd96))
+* **deps:** bump actions/setup-node from 3.4.1 to 3.5.1 ([e98356b](https://github.com/jetstreamlabs/zora/commit/e98356b86db0d68e5a3a9ac60ed0029c8a10a60e))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([7a6c357](https://github.com/jetstreamlabs/zora/commit/7a6c357d0488040dbb934286d8ffe2e8ff2a24dd))
+* **deps:** bump npm from 8.3.1 to 8.12.0 ([442a21f](https://github.com/jetstreamlabs/zora/commit/442a21fc7cbbfee4e1acb569e9a495610db6cfd4))
+* **deps:** bump semver-regex from 3.1.3 to 3.1.4 ([2794d71](https://github.com/jetstreamlabs/zora/commit/2794d714a2ed0dfce4a399c32f9248a14399f641))
+* **dev-deps:** update dpbot dependencies ([e267b6e](https://github.com/jetstreamlabs/zora/commit/e267b6ef9ad486b0d5f28b4a0f9bc512c7f0fd52))
+* edit changelog ([0d47442](https://github.com/jetstreamlabs/zora/commit/0d47442c1566dc93d2a123665a83debb7fa08aa2))
+* update release workflow ([5c5ccfb](https://github.com/jetstreamlabs/zora/commit/5c5ccfbdf7d806e7b127be865363a3096bca5b6f))
+
+
+### Task Commit
+
+* update dependencies —dpbot ([e58d229](https://github.com/jetstreamlabs/zora/commit/e58d2291ca3a25879825b07e4f1e24f35994158b))
+
 ## [3.2.3](https://github.com/jetstreamlabs/zora/compare/v3.2.2...v3.2.3) (2022-02-13)
 
 ### Bug Fixes
