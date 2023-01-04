@@ -1,39 +1,40 @@
 {
-	"private": true,
-	"scripts": {
-		"lint": "php ./vendor/bin/styleci analyze -c"
-	},
-	"devDependencies": {
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/config-conventional": "^17.4.0",
-		"@semantic-release/changelog": "^6.0.2",
-		"@semantic-release/git": "^10.0.1",
-		"husky": "^8.0.3",
-		"semantic-release": "^19.0.5"
-	},
-	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		],
-		"rules": {
-			"header-max-length": [
-				2,
-				"always",
-				120
-			],
-			"type-enum": [
-				2,
-				"always",
-				[
-					"breaking",
-					"feat",
-					"fix",
-					"task",
-					"refactor",
-					"docs",
-					"chore"
-				]
-			]
-		}
-	}
+  "private": true,
+  "scripts": {
+    "lint": "php ./vendor/bin/styleci analyze -c",
+    "cn": "composer update && npm update"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.3",
+    "semantic-release": "^19.0.5"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "header-max-length": [
+        2,
+        "always",
+        120
+      ],
+      "type-enum": [
+        2,
+        "always",
+        [
+          "breaking",
+          "feat",
+          "fix",
+          "task",
+          "refactor",
+          "docs",
+          "chore"
+        ]
+      ]
+    }
+  }
 }
