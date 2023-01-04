@@ -12,20 +12,23 @@ jobs:
     name: Release Main
     runs-on: ubuntu-latest
     steps:
-      - name: checkout main
+      - name: Checkout Main
         uses: actions/checkout@v3
         with:
+          ref: main
           fetch-depth: 0
+          persist-credentials: false
 
-      - name: setup node.js
+      - name: Setup Node
         uses: actions/setup-node@v3.5.1
         with:
           node-version: 'lts/*'
 
-      - name: install dependencies
-        run: npm ci
+      - name: Install Dependencies
+        run: npm install
 
-      - name: run semantic-release
+      - name: Run Semantic Release
         env:
+          GH_TOKEN: ${{ secrets.SM_RELEASE}}
           GITHUB_TOKEN: ${{ secrets.VERAN }}
         run: npx semantic-release
