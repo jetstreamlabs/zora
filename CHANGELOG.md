@@ -1,5 +1,21 @@
 # Zora Changelog
 
+## [3.2.5](https://github.com/jetstreamlabs/zora/compare/v3.2.4...v3.2.5) (2023-01-18)
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 17.4.1 to 17.4.2 ([c76d547](https://github.com/jetstreamlabs/zora/commit/c76d5472576ff2fd03dbe1d6ab50b568c2f9590b))
+* **deps-dev:** bump @commitlint/config-conventional ([80a36d3](https://github.com/jetstreamlabs/zora/commit/80a36d3f07a5062fffe490ed292361e923e633aa))
+* **deps-dev:** bump semantic-release from 19.0.5 to 20.0.2 ([dfc9f46](https://github.com/jetstreamlabs/zora/commit/dfc9f469b8529d93c7712e834d6027abb2dcdf94))
+* **deps:** bump actions/setup-node from 3.5.1 to 3.6.0 ([e9a85ee](https://github.com/jetstreamlabs/zora/commit/e9a85eeade73b21e0d1893101940ef978ef53058))
+* update dependencies —dpbot ([f0d8e3d](https://github.com/jetstreamlabs/zora/commit/f0d8e3d5315a3fe9377379fcb5cf0eaa53034f00))
+
+
+### Task Commit
+
+* update dependencies —dpbot ([e807079](https://github.com/jetstreamlabs/zora/commit/e807079c34aceb3b916eb0e36ff1dcba6a4d4797))
+
 ## [3.2.4](https://github.com/jetstreamlabs/zora/compare/v3.2.3...v3.2.4) (2023-01-04)
 
 
