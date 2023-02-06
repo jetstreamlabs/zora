@@ -25,6 +25,6 @@
 		}
 	},
 	"require-dev": {
-		"styleci/cli": "^1.2"
+		"jetstreamlabs/pinte": "^1.0"
 	}
 }

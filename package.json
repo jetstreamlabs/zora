@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "lint": "php ./vendor/bin/styleci analyze -c",
+    "lint": "php ./vendor/bin/pinte --dirty",
     "cn": "composer update && npm update"
   },
   "devDependencies": {
@@ -35,6 +35,11 @@
           "chore"
         ]
       ]
+    }
+  },
+  "overrides": {
+    "@semantic-release/npm": {
+      "npm": "^9.4.1"
     }
   }
 }
