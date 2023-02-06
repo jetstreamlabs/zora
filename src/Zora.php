@@ -100,7 +100,7 @@ class Zora implements ZoraInterface
 
     foreach ($this->locales as $locale) {
       $translations[$locale] = [
-        'php'  => $this->translatePhp($locale),
+        'php' => $this->translatePhp($locale),
         'json' => $this->translateJson($locale),
       ];
     }

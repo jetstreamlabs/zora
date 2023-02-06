@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "lint": "php ./vendor/bin/pinte --dirty",
+    "pinte": "php ./vendor/bin/pinte",
     "cn": "composer update && npm update"
   },
   "devDependencies": {

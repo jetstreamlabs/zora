@@ -20,7 +20,7 @@ class TranslationPayload
 
     foreach ($locales as $locale) { // suported locales
       $translations[$locale] = [
-        'php'  => $payload->phpTranslations($locale),
+        'php' => $payload->phpTranslations($locale),
         'json' => $payload->jsonTranslations($locale),
       ];
     }
