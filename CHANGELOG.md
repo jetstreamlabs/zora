@@ -1,5 +1,19 @@
 # Zora Changelog
 
+## [3.2.7](https://github.com/jetstreamlabs/zora/compare/v3.2.6...v3.2.7) (2023-03-09)
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 17.4.2 to 17.4.4 ([73a8e35](https://github.com/jetstreamlabs/zora/commit/73a8e3517bbe7b719425adfda9cae20029e187af))
+* **deps-dev:** bump @commitlint/config-conventional ([f730eb0](https://github.com/jetstreamlabs/zora/commit/f730eb0549a3fc7c83ce3a94e8dabf31388be144))
+* **deps-dev:** bump semantic-release from 20.1.0 to 20.1.1 ([2c5eb0a](https://github.com/jetstreamlabs/zora/commit/2c5eb0acd2b55673af885406decbb1aaec5d775e))
+
+
+### Task Commit
+
+* update deps via —dpbot ([e64121a](https://github.com/jetstreamlabs/zora/commit/e64121a8428503d810f63c6097998e78b82ec4d6))
+
 ## [3.2.6](https://github.com/jetstreamlabs/zora/compare/v3.2.5...v3.2.6) (2023-03-09)
 
 
