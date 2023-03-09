@@ -1,5 +1,19 @@
 # Zora Changelog
 
+## [3.2.6](https://github.com/jetstreamlabs/zora/compare/v3.2.5...v3.2.6) (2023-03-09)
+
+
+### Maintenance
+
+* add auto-approve workflow ([02f9334](https://github.com/jetstreamlabs/zora/commit/02f9334d6a4e8671659b0d292007eff877c83196))
+* **deps-dev:** bump semantic-release from 20.0.2 to 20.1.0 ([7ce61ac](https://github.com/jetstreamlabs/zora/commit/7ce61ac87d0b347a53226880d8aa0a22f85ae940))
+* **styles:** convert to pinte ([571614e](https://github.com/jetstreamlabs/zora/commit/571614e2d75fc33c2a5e9ab9d66fa965962fef4a))
+
+
+### Task Commit
+
+* update dependencies ([33b1082](https://github.com/jetstreamlabs/zora/commit/33b1082e655582a84bf1c50dc11b7fce1aa0b6c1))
+
 ## [3.2.5](https://github.com/jetstreamlabs/zora/compare/v3.2.4...v3.2.5) (2023-01-18)
 
 
