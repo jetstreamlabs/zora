@@ -1,4 +1,4 @@
-import { trans } from './index.js'
+import { trans } from './client.js'
 // prettier-ignore
 export const ZoraVue = {
 	install: (v, options) => v.mixin({
