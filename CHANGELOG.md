@@ -1,5 +1,12 @@
 # Zora Changelog
 
+# [4.0.0](https://github.com/jetstreamlabs/zora/compare/v3.2.7...v4.0.0) (2023-05-05)
+
+
+### Breaking
+
+* renaming and updates for inertia ssr ([60e7332](https://github.com/jetstreamlabs/zora/commit/60e733248bb326f531126311ecde80363d0c8ca7))
+
 ## [3.2.7](https://github.com/jetstreamlabs/zora/compare/v3.2.6...v3.2.7) (2023-03-09)
 
 
