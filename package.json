@@ -6,12 +6,12 @@
     "cn": "composer update && npm update"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
-    "@commitlint/config-conventional": "^17.4.4",
-    "@semantic-release/changelog": "^6.0.2",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "husky": "^8.0.3",
-    "semantic-release": "^20.1.1"
+    "semantic-release": "^21.0.2"
   },
   "commitlint": {
     "extends": [
