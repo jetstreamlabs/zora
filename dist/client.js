@@ -1,7 +1,8 @@
 import _ from 'lodash'
+import {usePage} from '@inertiajs/vue3'
 
 export const trans = (key, replace, Zora) => {
-  const locale = window.locale
+  const locale = usePage().props.zora.locale || window.locale
 
   let translation = null
 
