@@ -1,5 +1,21 @@
 # Zora Changelog
 
+## [4.0.1](https://github.com/jetstreamlabs/zora/compare/v4.0.0...v4.0.1) (2023-06-18)
+
+
+### Code Refactoring
+
+* **dev-deps:** update dependencies —dpbot ([ece00b0](https://github.com/jetstreamlabs/zora/commit/ece00b0418b6c2cb9e079d79304b6430441a995c))
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 17.6.3 to 17.6.5 ([a702e34](https://github.com/jetstreamlabs/zora/commit/a702e343e7b2145ee0534dc9a75829e9824bb8b3))
+* **deps-dev:** bump @commitlint/config-conventional ([6a52def](https://github.com/jetstreamlabs/zora/commit/6a52def22f097e6d3fe217a72d202cffc4e8a294))
+* **deps-dev:** bump semantic-release from 21.0.2 to 21.0.5 ([a0403dd](https://github.com/jetstreamlabs/zora/commit/a0403ddb4ba155c7a1c6453eeed7366ded5acb96))
+* **dev-deps:** update dev deps —dpbot ([085229b](https://github.com/jetstreamlabs/zora/commit/085229b0d8b627bd75f29d7888726d64e2f256f3))
+* rerun updates ([2409188](https://github.com/jetstreamlabs/zora/commit/2409188e8622013d4d6ffd9f3e7ab7f96585f754))
+
 # [4.0.0](https://github.com/jetstreamlabs/zora/compare/v3.2.7...v4.0.0) (2023-05-05)
 
 
