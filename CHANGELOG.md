@@ -1,5 +1,12 @@
 # Zora Changelog
 
+## [4.0.2](https://github.com/jetstreamlabs/zora/compare/v4.0.1...v4.0.2) (2023-06-18)
+
+
+### Bug Fixes
+
+* use directory separator resolves [#72](https://github.com/jetstreamlabs/zora/issues/72) ([6fe0ea5](https://github.com/jetstreamlabs/zora/commit/6fe0ea54734d7731ce3247f647c690cf2a594256))
+
 ## [4.0.1](https://github.com/jetstreamlabs/zora/compare/v4.0.0...v4.0.1) (2023-06-18)
 
 
