@@ -37,10 +37,5 @@
         ]
       ]
     }
-  },
-  "overrides": {
-    "@semantic-release/npm": {
-      "npm": "^9.4.1"
-    }
   }
 }

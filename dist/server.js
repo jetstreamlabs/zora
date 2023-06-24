@@ -1,5 +1,3 @@
-import _ from 'lodash'
-
 export const trans = (key, replace, Zora) => {
   const locale = process.env.LOCALE
 
@@ -33,7 +31,7 @@ export const checkForVariables = (translation, replace) => {
     return translation
   }
 
-  _.forEach(replace, (value, key) => {
+  replace.forEach((value, key) => {
     translated = translation.toString().replace(':' + key, value)
   })
 
