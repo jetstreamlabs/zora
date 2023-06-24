@@ -1,5 +1,12 @@
 # Zora Changelog
 
+# [4.1.0](https://github.com/jetstreamlabs/zora/compare/v4.0.2...v4.1.0) (2023-06-24)
+
+
+### Features
+
+* update to remove lodash as dependency ([77fa446](https://github.com/jetstreamlabs/zora/commit/77fa446643524bd96cf98dedba4b77f2d7f4c115))
+
 ## [4.0.2](https://github.com/jetstreamlabs/zora/compare/v4.0.1...v4.0.2) (2023-06-18)
 
 
