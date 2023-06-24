@@ -25,14 +25,14 @@ export const trans = (key, replace, Zora) => {
 }
 
 export const checkForVariables = (translation, replace) => {
-  let translated = null
+  let translated = translation
 
   if (typeof replace === 'undefined') {
     return translation
   }
 
   replace.forEach((value, key) => {
-    translated = translation.toString().replace(':' + key, value)
+    translated = translated.toString().replace(':' + key, value)
   })
 
   return translated
