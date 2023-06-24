@@ -1,5 +1,12 @@
 # Zora Changelog
 
+## [4.1.1](https://github.com/jetstreamlabs/zora/compare/v4.1.0...v4.1.1) (2023-06-24)
+
+
+### Bug Fixes
+
+* resolves [#79](https://github.com/jetstreamlabs/zora/issues/79) ([f905d76](https://github.com/jetstreamlabs/zora/commit/f905d76f0e3a1573b316d95828080b7a29029f25))
+
 # [4.1.0](https://github.com/jetstreamlabs/zora/compare/v4.0.2...v4.1.0) (2023-06-24)
 
 
