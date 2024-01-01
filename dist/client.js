@@ -11,7 +11,7 @@ export const trans = (key, replace, Zora) => {
     if (translation) {
       return checkForVariables(translation, replace)
     }
-  } catch (e) {}
+  } catch (e) { }
 
   try {
     translation = Zora.translations[locale]['json'][key]
@@ -19,7 +19,7 @@ export const trans = (key, replace, Zora) => {
     if (translation) {
       return checkForVariables(translation, replace)
     }
-  } catch (e) {}
+  } catch (e) { }
 
   return checkForVariables(key, replace)
 }
@@ -31,7 +31,7 @@ export const checkForVariables = (translation, replace) => {
     return translation
   }
 
-  replace.forEach((value, key) => {
+  Object.entries(replace).forEach(([key, value]) => {
     translated = translated.toString().replace(':' + key, value)
   })
 
