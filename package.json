@@ -10,7 +10,7 @@
     "@commitlint/config-conventional": "^17.7.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "husky": "^8.0.3",
+    "husky": "^9.0.2",
     "semantic-release": "^22.0.5"
   },
   "commitlint": {
