@@ -1,5 +1,46 @@
 # Zora Changelog
 
+## [4.1.2](https://github.com/jetstreamlabs/zora/compare/v4.1.1...v4.1.2) (2024-01-29)
+
+
+### Bug Fixes
+
+* add js exports from package.json ([eeeb5b2](https://github.com/jetstreamlabs/zora/commit/eeeb5b29321e0a6c9fd495464a7f7954bff8319c))
+
+
+### Code Refactoring
+
+* updates for dependencies and prs ([d33907f](https://github.com/jetstreamlabs/zora/commit/d33907f803102b259d8daab1ca024828b8e7190b))
+
+
+* Merge pull request #111 from jetstreamlabs/dependabot/npm_and_yarn/commitlint/cli-18.6.0 ([0410943](https://github.com/jetstreamlabs/zora/commit/04109439558b474be02eeabdde9b156b808ef46e)), closes [#111](https://github.com/jetstreamlabs/zora/issues/111)
+* Merge pull request #112 from jetstreamlabs/dependabot/npm_and_yarn/husky-9.0.6 ([39f009c](https://github.com/jetstreamlabs/zora/commit/39f009c209077b2fda44ccaea15572f196854fa7)), closes [#112](https://github.com/jetstreamlabs/zora/issues/112)
+* Merge pull request #110 from jetstreamlabs/dependabot/npm_and_yarn/commitlint/config-conventional-18.6.0 ([2711785](https://github.com/jetstreamlabs/zora/commit/2711785bbdb79f29d41c317f6bbff61be3de0363)), closes [#110](https://github.com/jetstreamlabs/zora/issues/110)
+* Merge pull request #106 from jetstreamlabs/dependabot/npm_and_yarn/semantic-release-23.0.0 ([27db4b8](https://github.com/jetstreamlabs/zora/commit/27db4b85368f302212b4d410486832a392e64103)), closes [#106](https://github.com/jetstreamlabs/zora/issues/106)
+* Merge pull request #103 from jetstreamlabs/dependabot/github_actions/actions/setup-node-4.0.1 ([eb95f1d](https://github.com/jetstreamlabs/zora/commit/eb95f1d07d5af03bf21220c7cc0932d82717ce34)), closes [#103](https://github.com/jetstreamlabs/zora/issues/103)
+* Merge pull request #100 from jetstreamlabs/dependabot/npm_and_yarn/semantic-release-22.0.5 ([50d49fe](https://github.com/jetstreamlabs/zora/commit/50d49fede13bad04bca381216aee137c481ee238)), closes [#100](https://github.com/jetstreamlabs/zora/issues/100)
+* Merge pull request #97 from jetstreamlabs/dependabot/github_actions/actions/checkout-4 ([8f75f92](https://github.com/jetstreamlabs/zora/commit/8f75f92b36a69ca552f69ace8be9e547949d200f)), closes [#97](https://github.com/jetstreamlabs/zora/issues/97)
+* Merge pull request #93 from jetstreamlabs/dependabot/github_actions/actions/setup-node-3.8.1 ([e62611c](https://github.com/jetstreamlabs/zora/commit/e62611c40fdc6aececff79ce0faa2e04f6cbea0e)), closes [#93](https://github.com/jetstreamlabs/zora/issues/93)
+* Merge pull request #90 from jetstreamlabs/dependabot/npm_and_yarn/commitlint/config-conventional-17.7.0 ([faa6da0](https://github.com/jetstreamlabs/zora/commit/faa6da08846841290028508aa65e3c8cc80c211d)), closes [#90](https://github.com/jetstreamlabs/zora/issues/90)
+* Merge pull request #80 from digvijayad/73-replace-for-each ([3c76602](https://github.com/jetstreamlabs/zora/commit/3c76602450fdd3c499e6a4dce9eb6dabae665882)), closes [#80](https://github.com/jetstreamlabs/zora/issues/80)
+* Merge pull request #82 from digvijayad/update_readme ([1575aa8](https://github.com/jetstreamlabs/zora/commit/1575aa89d99ff1544d15ee43e0cba524a1a00f4e)), closes [#82](https://github.com/jetstreamlabs/zora/issues/82) [#81](https://github.com/jetstreamlabs/zora/issues/81)
+* #81 - update readme ([7786a61](https://github.com/jetstreamlabs/zora/commit/7786a61bc52c6200eb65448b2903c3cfe18bb07f)), closes [#81](https://github.com/jetstreamlabs/zora/issues/81)
+* Fix forEach not a function by using Object.entries ([96ae383](https://github.com/jetstreamlabs/zora/commit/96ae3835316770e3a6e4f09777c5727add94c2c5))
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 17.8.1 to 18.6.0 ([99fa382](https://github.com/jetstreamlabs/zora/commit/99fa382a94143b8c047266470f29252ae9520f4a))
+* **deps-dev:** bump @commitlint/config-conventional ([3b72bbb](https://github.com/jetstreamlabs/zora/commit/3b72bbb867de0546c7bbfeebd46296ec4befaaa0))
+* **deps-dev:** bump @commitlint/config-conventional ([1e7a256](https://github.com/jetstreamlabs/zora/commit/1e7a25648686334017f653217884df1f6a68186f))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.6 ([cf39f81](https://github.com/jetstreamlabs/zora/commit/cf39f819d6efa7e6ad90f7d5911f6bfaf1ab764b))
+* **deps-dev:** bump semantic-release from 21.0.5 to 22.0.5 ([93c8e8f](https://github.com/jetstreamlabs/zora/commit/93c8e8f0720db1707b152f4dd09587bddf94393d))
+* **deps-dev:** bump semantic-release from 22.0.12 to 23.0.0 ([556b065](https://github.com/jetstreamlabs/zora/commit/556b06591aec51e300709d2479bb992e7fe97c0d))
+* **deps:** bump actions/checkout from 3 to 4 ([fd48f72](https://github.com/jetstreamlabs/zora/commit/fd48f7299f5341997eccb2e174a1c277f80aafd3))
+* **deps:** bump actions/setup-node from 3.6.0 to 3.8.1 ([cddeb3f](https://github.com/jetstreamlabs/zora/commit/cddeb3f6d0948ab1ca76440b1cc6af0cb0888310))
+* **deps:** bump actions/setup-node from 3.8.1 to 4.0.1 ([e6b3d34](https://github.com/jetstreamlabs/zora/commit/e6b3d348a82484bf6788ed96383ddfb9e367c90c))
+* updated dependencies ([8a131e9](https://github.com/jetstreamlabs/zora/commit/8a131e9e0adc25058d9b41379af1f0cab4e1d525))
+
 ## [4.1.1](https://github.com/jetstreamlabs/zora/compare/v4.1.0...v4.1.1) (2023-06-24)
 
 
