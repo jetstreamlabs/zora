@@ -16,7 +16,6 @@
 babel.config.js export-ignore
 composer.lock export-ignore
 package-lock.json export-ignore
-package.json export-ignore
 CHANGELOG.md export-ignore
 phpunit.xml.dist export-ignore
 pinte.json export-ignore

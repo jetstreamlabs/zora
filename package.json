@@ -1,5 +1,8 @@
 {
   "private": true,
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "lint": "php ./vendor/bin/pinte --dirty",
     "pinte": "php ./vendor/bin/pinte",
