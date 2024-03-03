@@ -1,5 +1,30 @@
 # Zora Changelog
 
+## [4.1.4](https://github.com/jetstreamlabs/zora/compare/v4.1.3...v4.1.4) (2024-03-03)
+
+
+### Code Refactoring
+
+* pr deps updates ([69e8d00](https://github.com/jetstreamlabs/zora/commit/69e8d005edc2816832ccdf84ab0bca1a4eed3731))
+
+
+* Merge pull request #127 from jetstreamlabs/dependabot/npm_and_yarn/commitlint/cli-19.0.3 ([bfd6835](https://github.com/jetstreamlabs/zora/commit/bfd68351d41516c70d2c459851d18e6f335bb5fb)), closes [#127](https://github.com/jetstreamlabs/zora/issues/127)
+* Merge pull request #123 from jetstreamlabs/dependabot/npm_and_yarn/husky-9.0.11 ([4eaa751](https://github.com/jetstreamlabs/zora/commit/4eaa751d7bc6bbfe9cc42db52e3aea968cdc44e2)), closes [#123](https://github.com/jetstreamlabs/zora/issues/123)
+* Merge pull request #128 from jetstreamlabs/dependabot/npm_and_yarn/commitlint/config-conventional-19.0.3 ([6278cdc](https://github.com/jetstreamlabs/zora/commit/6278cdc5a1cd59bc909dc87c9f7d0ba919a7766c)), closes [#128](https://github.com/jetstreamlabs/zora/issues/128)
+* Merge pull request #118 from jetstreamlabs/dependabot/npm_and_yarn/semantic-release-23.0.2 ([bc0d4c3](https://github.com/jetstreamlabs/zora/commit/bc0d4c34104c1bb33997668d0a56b699cef0d1a6)), closes [#118](https://github.com/jetstreamlabs/zora/issues/118)
+* Merge pull request #116 from jetstreamlabs/dependabot/github_actions/actions/setup-node-4.0.2 ([9041309](https://github.com/jetstreamlabs/zora/commit/9041309666586d3ec8a14b90655ff7b586a404ef)), closes [#116](https://github.com/jetstreamlabs/zora/issues/116)
+* Merge pull request #115 from jetstreamlabs/dependabot/github_actions/hmarr/auto-approve-action-4 ([e1321cd](https://github.com/jetstreamlabs/zora/commit/e1321cd2b99a6ce62fbc8a695d46cbaf5ef32471)), closes [#115](https://github.com/jetstreamlabs/zora/issues/115)
+
+
+### Maintenance
+
+* **deps-dev:** bump @commitlint/cli from 18.6.0 to 19.0.3 ([eeb623e](https://github.com/jetstreamlabs/zora/commit/eeb623ef54e200fa4bf731aeb7bcfeaf8ce5d06b))
+* **deps-dev:** bump @commitlint/config-conventional ([f97b924](https://github.com/jetstreamlabs/zora/commit/f97b924815aa3f0bb6281bab31339999be3b241f))
+* **deps-dev:** bump husky from 9.0.6 to 9.0.11 ([6237356](https://github.com/jetstreamlabs/zora/commit/623735609f576a73f4f6f219948787f257f05168))
+* **deps-dev:** bump semantic-release from 23.0.0 to 23.0.2 ([b935c34](https://github.com/jetstreamlabs/zora/commit/b935c34f5e8b73168e73cd1fabb64fc068ed8586))
+* **deps:** bump actions/setup-node from 4.0.1 to 4.0.2 ([9aaf0fa](https://github.com/jetstreamlabs/zora/commit/9aaf0fa46942f1ce753e29b21ea70dbc0003707c))
+* **deps:** bump hmarr/auto-approve-action from 3 to 4 ([4442671](https://github.com/jetstreamlabs/zora/commit/4442671ce6bcc7f556c33b15318b8e404aaad222))
+
 ## [4.1.3](https://github.com/jetstreamlabs/zora/compare/v4.1.2...v4.1.3) (2024-03-03)
 
 
