@@ -1,5 +1,12 @@
 # Zora Changelog
 
+## [4.1.3](https://github.com/jetstreamlabs/zora/compare/v4.1.2...v4.1.3) (2024-03-03)
+
+
+### Code Refactoring
+
+* update for dependencies ([110dee0](https://github.com/jetstreamlabs/zora/commit/110dee039157534479f4efd67a2a26230d2aace6))
+
 ## [4.1.2](https://github.com/jetstreamlabs/zora/compare/v4.1.1...v4.1.2) (2024-01-29)
 
 
