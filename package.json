@@ -14,7 +14,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "husky": "^9.0.11",
-    "semantic-release": "^23.0.2"
+    "semantic-release": "^23.0.5"
   },
   "commitlint": {
     "extends": [
